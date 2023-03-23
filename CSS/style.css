@@ -1,0 +1,215 @@
+/* Small screens */
+@media (max-width: 767px) {
+    div.conditional-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1.title-name {
+        font-size: 24px;
+    }
+
+    .columns-2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .para-formatted {
+        width: 50vw !important;
+        text-align: justify;
+
+    }
+
+    p.head-formatted {
+        text-align: justify;
+        font-size: 24px !important;
+        font-family: 'Neue Montreal Bold', sans-serif;
+        width: 50vw !important;
+    }
+
+    .content-data {
+        width: 100vw;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1.title-name {
+        font-size: 16px;
+    }
+
+    p.head-formatted {
+        text-align: justify;
+        font-size: 24px !important;
+        font-family: 'Neue Montreal Bold', sans-serif;
+    }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+    .title-name {
+        font-size: 16px;
+    }
+
+    p.head-formatted {
+        text-align: justify;
+        font-size: 24px !important;
+        font-family: 'Neue Montreal Bold', sans-serif;
+    }
+}
+
+.hero {
+    font-size: 7vw;
+}
+
+.hero-typed {
+    font-size: 9vw;
+
+}
+
+.hero-text {
+    width: 60vw;
+}
+
+#hero-1 {
+    padding-left: 21vw;
+    height: 5vw;
+}
+
+#hero-2 {
+    height: 5vw;
+}
+
+#hero-3 {
+    padding-left: 9vw;
+    height: 5vw;
+}
+
+#hero-4 {
+    padding-left: 3vw;
+    width: 70vw;
+    height: 5vw;
+}
+
+#hero-5 {
+    padding-left: 17.2vw;
+    height: 5vw;
+}
+
+
+:root {
+    font-family: 'Neue Montreal Regular', sans-serif;
+}
+
+body {
+    background-color: #C8C4C0;
+    background-image: url(../IMG/bg-texture.png);
+    color: #3C4144;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'Neue Montreal Medium';
+    src: url('FONT/NeueMontreal-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Neue Montreal Regular';
+    src: url('FONT/NeueMontreal-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Neue Montreal Bold';
+    src: url('FONT/NeueMontreal-Bold.otf') format('opentype');
+}
+
+.title-name {
+    font-family: 'Neue Montreal Medium', sans-serif;
+    margin: 24px;
+}
+
+.page {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    font-family: 'Neue Montreal Bold', sans-serif;
+
+    margin: 24px;
+    color: #3C4144;
+}
+
+div.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    /* Or any other height that fits your design */
+}
+
+.hero-typed {
+    font-family: 'Allura', cursive;
+}
+
+li.sidebar-icons {
+    list-style: none;
+    margin-bottom: 40px;
+    width: 12px;
+}
+
+.left-sidebar {
+    margin-top: 10vh;
+    position: fixed;
+    height: 10vh;
+    z-index: 2;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #DCDAD7;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.para-formatted {
+    text-justify: auto;
+}
+
+div.content-data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2.para-formatted {
+    text-align: center;
+    width: 400px;
+}
+
+.columns-2 {
+    display: flex;
+
+}
+
+.column {
+    min-width: 35vw;
+    max-width: 35vw;
+    padding: 24px;
+    padding-top: 0px;
+}
+
+.justified {
+    text-justify: auto;
+    text-align: justify;
+}
