@@ -212,3 +212,8 @@ h2.para-formatted {
     text-justify: auto;
     text-align: justify;
 }
+
+.section-header {
+    font-family: 'Allura', cursive;
+    font-size: 64px;
+}
